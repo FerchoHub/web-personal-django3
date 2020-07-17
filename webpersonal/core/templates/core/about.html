@@ -1,0 +1,33 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1>Acerca de</h1>
+    <span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+      <div class="row">   
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Juan Peréz</h2>   
+          <p>Nació en la ciudad de Portoviejo el 21 de octubre de 1980 mayor de 3 hermanos y procedente de una familia humilde y trabajadora, su madre una prestigiosa enfermera y su padre un gran ingeniero.</p>
+          <p>Desde su infancia obtuvo excelentes calificaciones en los estudios, su sentido de la responsabilidad yacía solo, por lo cual siempre destacó entre los mejores estudiantes.</p>
+          <p>Realizó sus estudios secundarios en la Unidad Educativa Manabí Tecnológico, una de las instituciones más prestigiosas de la capital. Sin embargo su pasión por la ingeniería comenzó
+          cuando su padre lo llevaba a su trabajo en la Rifenería del Pacífico, allí decició formarse como ingeniero al igual que su padre.</p> 
+          <p>Posterioremente continuó con sus estudios universitarios, formándose en la carrera de Ingeniería Industrial en la Universidad Técnica de Manabí.</p>
+          <p>Se graduó de Ingeniero Industrial y actualmente estudia una Maestría en Houston-Texas, es catedrático de medio tiempo en la Universidad de Houston y 
+          actualmente forma parte del equipo de ingenieros que trabaja en el proyecto 'Biobased Economy' del Departamento de Ingenieros de Ecuador.</p>
+        </div>
+      </div>  
+    </div>
+{% endblock %}
+
+
+        
