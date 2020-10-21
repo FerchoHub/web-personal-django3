@@ -1,2 +1,2 @@
-# web-personal-django3
+# web-Personal
 Proyecto de la asignatura Desarrollo de Sistemas de Información Web Personal 
